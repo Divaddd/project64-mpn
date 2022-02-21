@@ -8182,3 +8182,11 @@ Fixed Audio=0
 Good Name=64DD IPL (JPN)
 RDRAM Size=8
 Status=Compatible
+
+[9A782045-6E309235-C:45]
+Good Name=MK64 Amped Up 2.1
+Internal Name=MARIOKART64
+Status=Compatible
+MD5=48551A360AC3FC5527CEE51A7092CB7A
+RDRAM Size=8
+Counter Factor=1
