@@ -36,6 +36,6 @@ move GlideN64.ini Plugin\GFX
 move NRage.ini Config
 move Project64.cfg Config
 move netplay_input_plugin.ini Plugin\Input
-start "Project64-MPN.exe"
+start Project64-MPN
 :Exit
 EXIT
