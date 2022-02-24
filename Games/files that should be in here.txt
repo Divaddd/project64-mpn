@@ -1,24 +1,22 @@
 You don't have to have them all, but be sure the ones you DO
 have are the correct region (USA). 
 
-You can use an outside checksum tool to confirm
-your ROM is valid. If the number it generates matches this document,
+You can right click the ROM and select Properties. If the number it generates under MD5 matches this document,
 it is correct (if you can confirm the first few numbers match you're probably fine).
+
+Keep note this is the MD5 tied to the game itself inside the ROM and not the file itself. This means that
+the MD5 will be the same depending on the extension of your ROM.
 
 =====================================================================================
 	Main ROMS:
 =====================================================================================
-Mario Party (USA).z64
-8bc2712139fbf0c56c8ea835802c52dc
+Mario Party (USA)
+20D59C3862187C651FB311983B7B8A5C
 
-Mario Party 2 (USA).z64
-04840612a35ece222afdb2dfbf926409
+Mario Party 2 (USA)
+BA248C51CFAC5CDECC9202772B1E1F73
 
-Mario Party 3 (USA).z64
-76a8bbc81bc2060ec99c9645867237cc
+Mario Party 3 (USA)
+224686FCC5DE97850CFFA5D92784C327
 
-=====================================================================================
-	Modded ROMs:
-=====================================================================================
-Mario Party 3 (USA) [Mod-Costume Party v1.1].z64
-55a08d1dbde438cbb14c95e1db0f9006
+You can verify other ROMs on the Database located here https://gist.github.com/UnicorNora/d2fe633cc39d51373c8a795a739e9d52
