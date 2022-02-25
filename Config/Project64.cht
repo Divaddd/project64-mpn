@@ -11,7 +11,7 @@ Homepage=https://discord.gg/marioparty
 
 //========== Start of MP1 codes ==========
 
-[2829657E-A0621877-C:45]
+[MarioParty]
 Cheat0="!!! README"
 Cheat0_N=Make sure all players have the same codes active before starting a game. Trying to cheat by enabling codes that weren't agreed on will only cause a desync and a waste of time. "Recommended" codes do not affect the balance of the game and should be left on, so parties finish quickly and safely.
 Cheat0_O=
@@ -103,9 +103,6 @@ Cheat35_O=$01 1 Turn,$05 5 Turns,$0A 10 Turns,$0F 15 Turns,$19 25 Turns,$1E 30 T
 Cheat36="MGR: Mario Bandstand -> Yoshi's Tongue Meeting",D10F09F6 0026,810F09F6 0008
 Cheat36_N=By Celery. Try out an unused Mini-Game!
 Cheat36_O=
-Cheat37="Always On: Skip Player Start Screen",D10F09F6 0064,810FB1AC 2400,D10F09F6 0040,810FB1AC 2400,81046DDC 2400
-Cheat37_N=
-Cheat37_O=
 Cheat3_N=By: Celery. Makes the Star/Bowser roll always result in a Star.
 Cheat3_O=
 Cheat4="Board: WBC - Slower Cannon Roulette",D10F7F66 0003,810F7F66 0018
@@ -123,7 +120,7 @@ Cheat7_O=
 Cheat8="Bonus: Double Cherry (P1 = 1/3)",D00F32B3 0002,800F32B3 0000,D00F32E3 0002,800F32E3 0000,D00F3313 0002,800F3313 0000,D00F3343 0002,800F3343 0000,D00F32B3 0000,800F32B4 00??,D00F32E3 0000,800F32E4 00??,D00F3313 0000,800F3314 00??,D00F3343 0000,800F3344 00??,D00F32B3 0000,800F32B7 0000,D00F32E3 0000,800F32E7 0000,D00F3313 0000,800F3317 0000,D00F3343 0000,800F3347 0000
 Cheat8_N=By: Celery. Player 1 also controls Player 3 with the same character.
 Cheat8_O=$00 Mario,$01 Luigi,$02 Peach,$03 Yoshi,$04 Wario,$05 DK
-Cheat9="Bonus: Double Cherry (P2 = 2/4)",D00F32B3 0003,800F32B3 0001,D00F32E3 0003,800F32E3 0001,D00F3313 0003,800F3313 0001,D00F3343 0003,800F3343 0001,D00F32B3 0001,800F32B4 00??,D00F32E3 0001,800F32E4 00??,D00F3313 0001,800F3314 00??,D00F3343 0001,800F3344 00??,D00F32B3 0001,800F32B7 0000,D00F32E3 0001,800F32E7 0000,D00F3313 0001,800F3317 0000,D00F3343 0001,800F3347 0000
+Cheat9="Bonus: Double Cherry (P2 = 2/4)",D00F32B3 0003,800F32B3 0001,D00F32E3 0003,800F32E3 0001,D00FC3313 0003,800F3313 0001,D00F3343 0003,800F3343 0001,D00F32B3 0001,800F32B4 00??,D00F32E3 0001,800F32E4 00??,D00F3313 0001,800F3314 00??,D00F3343 0001,800F3344 00??,D00F32B3 0001,800F32B7 0000,D00F32E3 0001,800F32E7 0000,D00F3313 0001,800F3317 0000,D00F3343 0001,800F3347 0000
 Cheat9_N=By: Celery. Player 2 also controls Player 4 with the same character.
 Cheat9_O=$00 Mario,$01 Luigi,$02 Peach,$03 Yoshi,$04 Wario,$05 DK
 Name=Mario Party (U)
@@ -402,7 +399,6 @@ Cheat53_N=By Celery.
 Cheat53_O=
 Cheat54="Always On: Do Not Proceed on Results",D11095AA 2484,81109348 2400
 Cheat54_N=By gamemasterplc.
-*Despite being an Always On code this is OFF by default to save Story Mode Users. We recommend turning this on if you are playing NetPlay.
 Cheat54_O=
 Cheat55="Extra: Custom Turns",800CD05A 00??
 Cheat55_N=By gamemasterplc, Great for testing specific features
@@ -410,6 +406,12 @@ Cheat55_O=$01 1 Turn,$05 5 Turns,$0A 10 Turns,$0F 15 Turns,$19 25 Turns,$1E 30 T
 Cheat56="Always On: Show Board on Results",81009C10 080F,81009C12 FC00,81009C14 27BD,81009C16 FFE8,813FF000 3C05,813FF002 0013,813FF004 24A5,813FF006 0046,813FF008 1485,813FF00A 000B,813FF00C 2400,813FF010 3C04,813FF012 0013,813FF014 2484,813FF016 001C,813FF018 3C1B,813FF01A 800D,813FF01C 8365,813FF01E D058,813FF020 8366,813FF022 D059,813FF024 30A5,813FF026 0001,813FF028 1405,813FF02A 0002,813FF02C 2400,813FF030 2484,813FF032 000C,813FF034 0086,813FF036 2021,813FF038 0800,813FF03A 2706,813FF03C AFBF,813FF03E 0014
 Cheat56_N=By gamemasterplc
 Cheat56_O=
+Cheat57="MG: Tidal Toss: Small Waves Removed",D10CE202 000A,8110AC00 4040,D10CE202 000A,8110AC02 0000
+Cheat57_N=By Airsola
+Cheat57_O=
+Cheat58="MG: Tidal Toss: Faster Waves",D10CE202 000A,8110AC08 4060,D10CE202 000A,8110AC0A 0000
+Cheat58_N=By Airsola
+Cheat58_O=
 Cheat5_N=By: gamemasterplc.
 Cheat5_O=
 Cheat6="Board: Deep Bloober Sea: No Missiles",D111861E 0005,81118610 1000,D111861E 0005,81118398 A480
