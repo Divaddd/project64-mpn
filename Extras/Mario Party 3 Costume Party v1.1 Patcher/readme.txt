@@ -10,8 +10,6 @@ By: Celery
 Use xdelta3 or patch.bat (Windows only) to apply this patch to a clean 
 Mario Party 3 (USA).z64 ROM.
 
-MD5 of correct ROM = 76a8bbc81bc2060ec99c9645867237cc
-
 == Usage ==
 
 When choosing your character (original 6 only), hold one of the 
