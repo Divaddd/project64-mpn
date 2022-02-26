@@ -805,10 +805,10 @@ if not errorlevel 1 (
 fc /b "Config\Backup\PUZZLE LEAGUE N64.fla" "Save\PUZZLE LEAGUE N64.fla" > nul
 if errorlevel 1 (
 	choice /c YN /m "Your PUZZLE LEAGUE N64 save has been changed. Replace?"
-	if errorlevel 2 echo Skipping PUZZLE LEAGUE N64! && goto CheckEnd
+	if errorlevel 2 echo Skipping PUZZLE LEAGUE N64! && goto CheckSmashRemix
 ) else (
 	
-	goto CheckEnd
+	goto CheckSmashRemix
 )
 
 
@@ -820,6 +820,28 @@ if not errorlevel 1 (
 ) else (
 	color 4F
 	echo There was an error replacing the PUZZLE LEAGUE N64 file...
+	pause
+)
+
+:CheckSmashRemix
+fc /b "Config\Backup\SMASH REMIX.sra" "Save\SMASH REMIX.sra" > nul
+if errorlevel 1 (
+	choice /c YN /m "Your SMASH REMIX save has been changed. Replace?"
+	if errorlevel 2 echo Skipping SMASH REMIX! && goto CheckEnd
+) else (
+	
+	goto CheckEnd
+)
+
+
+:ReplaceSmashRemix
+copy /y "Config\Backup\SMASH REMIX.sra" "Save\SMASH REMIX.sra"
+fc /b "Config\Backup\SMASH REMIX.sra" "Save\SMASH REMIX.sra" > nul
+if not errorlevel 1 (
+	echo You now have the correct SMASH REMIX N64 file!
+) else (
+	color 4F
+	echo There was an error replacing the SMASH REMIX N64 file...
 	pause
 )
 
